@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tribute Page</title>
+  <style type="text/css">
+  	body {
+  	  background-color: hsl(0, 0%, 90%);
+  	  position: relative;
+	  top: 10px;
+  	}
+  	header footer {
+  	  display: flex;
+  	  flex-direction: row;
+  	}
+  	/*pseudo-class selector*/
+  	a:hover {
+  		color: blue;
+  	}
+  	div {
+  	  margin-left: 10px;
+  	}
+  	/*relatively positioned with CSS offset*/
+  	.offset {
+  	  position: relative;
+  	  top: px;	
+  	}
+  	#main {
+  	  display: flex;
+  	  flex-direction: column;
+  	  border: 0;
+      border-radius: 3px;
+      padding: 5px;
+  	}
+  	#title {
+  	  text-align: center;
+  	}
+  	#img-caption {
+  	  text-align: center;
+  	  padding: 5px;
+  	}
+  	#tribute-link {
+  	  font-family: Arial;
+  	}
+  	#img-div {
+  	  background-color: white;
+  	  border-radius: 4px;
+  	}
+  	#image {
+	  margin: auto;
+	  display: block;
+	  width: 850px;
+      height: 500px;
+      border-radius: 4px;
+  	}
+  	#tribute-info {
+  	  font-family: Arial, sans-serif;	
+  	}
+  	footer .stats{
+  	  display: flex;
+  	  margin-left: 10px;
+  	}
+  </style>
+</head>
+<body>
+  <header>
+  	<h1 id="title">Responsive Web Design Project:</h1>
+  	<h2 id="title">Tribute page</h2>
+  </header>
+  <main id="main">
+  	<div>
+  	  <figure id="img-div">
+  	    <img id="image" src="tribute page.jpg" alt="tribute image">
+        <figcaption id="img-caption">my working place</figcaption>
+      </figure>
+    </div>
+    <div>
+  	  <p id="tribute-info">I started my way of Front-end develloping on <a href="https://www.freecodecamp.org/learn" target="_blank">FreeCodeCamp</a> with Responsive Web Design Certification. As a result I need to provide 5 projects.</p>
+  	  <h3>Web Design Projects:</h3>
+  	  <ul>
+  		<li>Build a Tribute Page</li>
+  		<li>Build a Survey Form</li>
+  		<li>Build a Product Landing Page</li>
+  		<li>Build a Technical Documentation Page</li>
+  		<li>Build a Personal Portfolio Page</li>
+  	  </ul>
+  	  <p>Here you find Project #1</p>
+    </div>
+  </main>
+  <footer>
+  	<div class="stats">
+  	&copy; 2020 <a href="https://github.com/SergeyTocarchuk?tab=repositories" target="_blank">Serhii T. at GitHub</a>
+  	</div>
+  </footer>
+</body>
+</html>
